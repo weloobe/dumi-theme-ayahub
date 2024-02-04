@@ -1,6 +1,6 @@
 {
   "name": "dumi-theme-ayahub",
-  "version": "1.7.6",
+  "version": "1.7.7",
   "description": "dumi-theme-ayahub is a documentation site theme package designed for dumi2. It provides a more beautiful and user-friendly development and reading experience based on @ayahub/ui",
   "keywords": [
     "ayahub",
@@ -69,9 +69,9 @@
     ]
   },
   "dependencies": {
+    "@ayahub/ui": "latest",
     "@floating-ui/react": "^0",
     "@giscus/react": "^2",
-    "@ayahub/ui": "latest",
     "ahooks": "^3",
     "antd": "^5",
     "antd-style": "^3",
@@ -88,8 +88,8 @@
     "zustand": "^4"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.0.0",
     "@ayahub/lint": "latest",
+    "@commitlint/cli": "^18.0.0",
     "@types/lodash-es": "^4",
     "@types/node": "^20",
     "@types/react": "^18",
